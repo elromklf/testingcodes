@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Ecommerce</title>
+
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #99cbf9;
+            color: rgb(16, 80, 122);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+         header p:hover{
+            background-color: #99cbf9;
+            color: rgb(138, 184, 224);
+            text-decoration: none;
+            visibility: hidden;
+
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product{
+            background-color: #b9d0e6;
+            border: 1px solid #044f5a;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33.333% - 20px);
+            text-align: center;
+        }
+        .product img{
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3{
+            margin: 10px 0;
+            color: #204160;
+        }
+        .product p{
+            color: #062d33;
+        }
+        .product button{
+            background-color: #dfefef;
+            border-radius: 7px;
+            border: none;
+            padding: 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .product button:hover{
+            background-color: #89acb2;
+        }
+
+        
+        .product2{
+            background-color: #b9d0e6;
+            border: 1px solid #044f5a;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33.333% - 20px);
+            text-align: center;
+        }
+        .product2 img{
+            max-width: 100%;
+            height: auto;
+        }
+        .product2 h3{
+            margin: 10px 0;
+            color: #204160;
+        }
+        .product2 p{
+            color: #062d33;
+        }
+        .product2 button{
+            background-color: #dfefef;
+            border-radius: 7px;
+            border: none;
+            padding: 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .product2 button:hover{
+            background-color: #89acb2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple ecommerce</h1>
+        <a href="#">cart(0)</a>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="ecom.jpg" alt="product1">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product2">
+            <img src="ecom.jpg" alt="product 2">
+            <h3>Product 2</h3>
+            <p>$39.99</p>
+            <button>Add to cart</button>
+        </div>
+        
+    </main>
+</body>
+</html>
